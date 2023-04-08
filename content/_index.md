@@ -42,6 +42,54 @@ sections:
           description: Started an web development
     design:
       columns: '2'
+  - block: features
+    content:
+      title: Skills
+      items:
+        - name: Haskell
+          description: 60%
+          icon: ❤‍🔥
+          icon_pack: emoji
+        - name: JS
+          description: 100%
+          icon: 💩
+          icon_pack: emoji
+        - name: Rust
+          description: 30%
+          icon: 🦀
+          icon_pack: emoji
+
+
+
+  - block: accomplishments
+    content:
+      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+      title: 'Accomplish&shy;ments'
+      subtitle:
+      # Date format: https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
+      # Accomplishments.
+      #   Add/remove as many `item` blocks below as you like.
+      #   `title`, `organization`, and `date_start` are the required parameters.
+      #   Leave other parameters empty if not required.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - certificate_url: https://htmlacademy.org/
+          date_end: ''
+          date_start: '2018-06-01'
+          description: Learned HTML CSS and JS
+          organization: htmlacademy
+          organization_url: https
+          title: Web Fundamentals
+        - certificate_url: https://haskell.org
+          date_start: '2020-07-01'
+          description: 'Passion To Haskell'
+          organization: my home
+          organization_url: https://www.datacamp.com
+          title: 'Falled in love with Functional Programming'
+          url: ''
+    design:
+      columns: '2'
   - block: collection
     id: posts
     content:
